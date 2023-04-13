@@ -29,8 +29,6 @@ const extractBiggest = () => {
 	}
 }
 
-// Only edit above
-
 for (let i = 0; i < 15; i++) {
 	extractBiggest();
 }
