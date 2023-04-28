@@ -9,6 +9,8 @@ const data = {
   const firstArr = data.lists[0][1];
   const secondArr = data.lists[1][1];
   const thirdArr = data.lists[2][1];
+
+  // only edit below
   
   const result = [];
   
@@ -36,9 +38,25 @@ const data = {
 	return thirdArr.pop();
   };
   
-  for (let i = 0; i < 15; i++) {
-	result.push(extractBiggest());
-  }
+  // Only edit below 
+  
+  result.push(extractBiggest())
+  result.push(extractBiggest())
+  result.push(extractBiggest())
+  result.push(extractBiggest())
+  result.push(extractBiggest())
+  
+  result.push(extractBiggest())
+  result.push(extractBiggest())
+  result.push(extractBiggest())
+  result.push(extractBiggest())
+  result.push(extractBiggest())
+  
+  result.push(extractBiggest())
+  result.push(extractBiggest())
+  result.push(extractBiggest())
+  result.push(extractBiggest())
+  result.push(extractBiggest())
   
   console.log(result);
   
